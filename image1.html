@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+#outerBox{
+  height : 300px;
+  width : 300px;
+  border:1px solid;  
+  background-color:#a3a3a3;
+}
+#innerBox{
+  position:relative;
+  border:1px solid;
+  height : 270px;
+  width : 270px;
+  top:15px;
+  left:15px;
+  background-color:#24323d;
+  text-align:center;
+}
+.tab-area{
+  position : relative;
+  top : 10px;
+  width: 90%;
+  height: 30px;
+  margin-left:auto;
+  margin-right:auto;
+} 
+
+.tabs{
+    border: 1px  black;
+  color: white;
+  font-size: 25px;
+  text-align:center; 
+  display:inline-block;
+  width:110px;
+}
+
+#signUp {
+  background-color:#1ab188;
+}
+#login{
+  background-color:#43525a;
+}
+
+#startedButton{
+ position:relative;
+ top:30px;
+ background-color:#1ab188;
+ width: 90%;
+ margin-left:auto;
+  margin-right:auto;
+}
+</style>
+</head>
+<body>
+<div id='outerBox'>
+<div id ='innerBox'>
+<div class= 'tab-area'>
+<span class= 'tabs' id='signUp'><a>Sign Up</a></span>
+<span class= 'tabs' id='login'>Login</span>
+</div>
+<div style='position:relative;top:20px;text-align:center'>
+<form>
+<input type ='text' style='display:inline;width:40%' placeholder='first-name*'/>
+<input type ='text' style='display:inline;width:40%' placeholder='last-name*'/> <br> <br>
+
+<input type ='text' style='width:85%'  placeholder='Email address*'/>
+<br> <br>
+<input type ='text' style='width:85%'  placeholder='Set a password*'/>
+</form>
+</div>
+<div id='startedButton' >
+
+<span>Get Started</span>
+</div>
+</div>
+</div>	
+
+</body>
+</html>
